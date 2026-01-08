@@ -1,0 +1,169 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* "*"* = seletor universal"*/
+
+*{
+  margin: 0; /*ê a margem externavdo acomponente*/
+  padding: 0; /*ê a margem interna acomponente*/
+  
+  box-sizing: border-box; /*ela define como iremos editar a altura e largura dos elemento*/
+  /*border-box = ela editar o tamanho atraves da borda
+  /*content-box = editar o contteúdo apenas*/
+}
+
+h1{
+  font-family: "Dancing Script";
+  font-size: 2.5rem;
+  color: #b9c77b;
+}
+
+body {
+  background-color: #f4f0ea;
+  color: #798252;
+  
+}
+
+header {
+  padding: 2rem;
+  background-color: #331f19;
+  text-align: center;
+}
+
+main{
+  padding: 2rem;
+  display: flex; /*display: ê o modo que o conteudo vai ser exibido. O*/
+  flex-direction: column; 
+  gap: 1.5rem;
+
+}
+
+section{
+  display: flex; /* define como um elemento vai parecer na tela se ele for flex, ele fica na forma de linha (que é o padrão) */
+  /*se usa quando está usando o atributo flex (transforma os itens automaticamente em flexnitens) no display*/
+  flex-direction: column; /*por padrao ele vem em row, mas dependendo tem que se colocar em column que ê a forma qur fazemis os itens*/
+  gap: 1rem; /* define o espaçamento das flex itens*/
+
+}
+
+h2{
+  color: #331f19;
+  font-size: 1.2rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  accent-color: #ccd595;
+} /*isso se chama estilizacao por atribut. no exemplo usamos o inputut radio*/
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"]{
+  width: 100%;
+  padding: 0.3rem;
+  border: 2px solid #CCD595;
+  outline: none;
+  border-radius: 5px; /*deixa a borda aredondado*/
+  background-color: transparent;
+}
+
+input::placeholder{
+  color:#CBBBA7;
+}
+
+select{
+  cursor: pointer;
+  background-color: #CCD595;
+  color: #331F19;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+img{
+  width: 5rem;
+  border-radius: 5px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #CCD595;
+  color: #331F19;
+  padding: 1rem;
+};
+td{
+  color: #331F19;
+  padding: 1rem;
+  text-align: center;
+}
+
+tfoot td{
+  background-color: #331F19;
+  color: #f4f0ea;
+}
+
+details{
+  background-color: #CCD595;
+  border-radius: 5px;
+  
+  padding: 1rem;
+}
+
+summary{
+  color: #331F19;
+  margin: 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+ol{
+  margin-left: 1.5rem;
+}
+
+ol li{
+ margin:  0.2rem;
+}
+
+fildset{
+  border: 2px solid #CCD595;
+  border-radius: 5px;
+  padding: 1rem;
+  
+}
+legend{
+  color: #331F19;
+  padding: 0 0.5rem;
+}
+
+textarea{
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #CCD595;
+  outline: none;
+}
+
+button{
+  background-color: #CCD595;
+  border: none;
+  padding: 0.8rem;
+  color: #331F19;
+  cursor: pointer;
+  
+}
+
+footer{
+  background-color: #331F19;
+  padding: 2rem;
+  text-align: center;
+}
+
+.para{
+  color: #f4f0ea;
+}
+
+footera{
+  text-decoration: none;
+  color: #CCD595;
+}
+
+
