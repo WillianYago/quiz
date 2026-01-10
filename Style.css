@@ -9,38 +9,40 @@
   box-sizing: border-box  ; /*ela define como iremos editar a altura e largura dos elemento*/
   /*border-box = ela editar o tamanho atraves da borda
   /*content-box = editar o contteúdo apenas*/
-
+  
 }
 
 h1{
-  font-family: "Dancing Script";
+  font-family: "Dancing Script"; /*Dancing Script*/
   font-size: 2.7rem;
-  color: #00ff0098;
+  color: #00ff00e0;
  /* color: #b9c77b; */
   padding: 5px;
 }
 
 body {
-  background-color: #f4f0ea;
+  background-color: rgba(0, 0, 0, 0.90);
+ /* background-color: #f4f0ea; */
    /* color: #798252; */
    color: #00ff0098;  
+   
 }
 
 header {
   padding: 2rem;
-  background-color: #331f19;
+ /* background-color: #331f19; */
   text-align: center;
   margin-top: -2rem;
 }
 
 main{
   padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.90);
   display: flex; /*display: ê o modo que o conteudo vai ser exibido. O*/
   flex-direction: column; 
   gap: 1.5rem;
-  border: solid;
+  border: solid rgb(14, 14, 14);
   margin: 1rem;
-
 }
 
 section{
@@ -48,12 +50,11 @@ section{
   /*se usa quando está usando o atributo flex (transforma os itens automaticamente em flexnitens) no display*/
   flex-direction: column; /*por padrao ele vem em row, mas dependendo tem que se colocar em column que ê a forma qur fazemis os itens*/
   gap: 1rem; /* define o espaçamento das flex itens*/
-  
-
 }
 
 h2{
-  color: #331f19;
+  color: #00ff0098;
+ /* color: #331f19; */
   font-size: 1.2rem;
 }
 
