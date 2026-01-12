@@ -12,16 +12,22 @@
   
 }
 
+.Image{
+  width: 40PX;
+  float: right;
+}
+
 h1{
   font-family: "Dancing Script"; /*Dancing Script*/
   font-size: 2.7rem;
   color: #00ff00e0;
  /* color: #b9c77b; */
   padding: 5px;
+  box-sizing: content-box;
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.90);
+  background-color: rgb(0, 0, 0);
  /* background-color: #f4f0ea; */
    /* color: #798252; */
    color: #00ff0098;  
@@ -33,11 +39,12 @@ header {
  /* background-color: #331f19; */
   text-align: center;
   margin-top: -2rem;
+  background-color: aqua;
 }
 
 main{
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.90);
+  background-color: rgb(10, 10, 10);
   display: flex; /*display: ê o modo que o conteudo vai ser exibido. O*/
   flex-direction: column; 
   gap: 1.5rem;
@@ -156,8 +163,16 @@ button{
   padding: 0.8rem;
   color: #331F19;
   cursor: pointer;
-  
+  width: 8rem;
 }
+
+.section{
+  display: flex; /* define como um elemento vai parecer na tela se ele for flex, ele fica na forma de linha (que é o padrão) */
+  /*se usa quando está usando o atributo flex (transforma os itens automaticamente em flexnitens) no display*/
+  flex-direction: column; /*por padrao ele vem em row, mas dependendo tem que se colocar em column que ê a forma qur fazemis os itens*/
+  gap: 1rem; /* define o espaçamento das flex itens*/
+}
+
 
 footer{
   background-color: #331F19;
